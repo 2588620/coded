@@ -1,0 +1,65 @@
+body |{
+  background-color: grey;
+  color: LightSlateGrey;
+  font-family: "Monaco";
+  line-height: 0.4;
+  margin-left: auto;
+  padding-top: 25px;
+}
+
+/* background */
+h1, h2, h3{
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%"
+}
+
+h1 {
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 45px;
+  top: 1px;
+  font-size: 14px; }
+
+/* colors */
+  spam.letter {
+    color: LightSlateGrey;
+}
+
+  spam.red {
+    color:#F08080;
+}
+  spam.orange {
+  color: SandyBrown;
+}
+  spam.green {
+  color: YellowGreen;
+}
+
+h2 {
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 45px;
+  top: 150px;
+  font-size: 14px;
+}
+/* pictures */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin: 2px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h3 {
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 45px;
+  top: 2558px;
+  font-size: 14px;
+}
